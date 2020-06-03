@@ -1,0 +1,16 @@
+{
+  "name": "netlify-functions-encoding-japanese",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Daisuke Fujimura (fd0) <booleanlabel@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "encoding-japanese": "^1.0.30",
+    "netlify-lambda": "^1.6.3",
+    "node-fetch": "^2.6.0"
+  },
+  "scripts": {
+    "build": "netlify-lambda build functions/",
+    "serve": "netlify-lambda serve functions/"
+  }
+}
