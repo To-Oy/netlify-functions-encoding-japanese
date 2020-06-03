@@ -5,6 +5,7 @@
   "author": "Daisuke Fujimura (fd0) <booleanlabel@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "encoding": "^0.1.12",
     "encoding-japanese": "^1.0.30",
     "netlify-lambda": "^1.6.3",
     "node-fetch": "^2.6.0"
